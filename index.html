@@ -1,380 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-
-    
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
+
 <body>
-    <div id="header">
-        <div class="container">
-            
-              <!--===== HEADER =====-->
-        <header class="l-header">
-            
-        </header>
-<nav>
-               
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()" ></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="sub-title">Hi,<br>I'am <span class="home__title-color">a</span><br> Data Analyst</h1>
-
-                    
-                </div> 
-
-                
-                <div class="home__img">
-                    
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                      
-
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="images/BACK.png"/>
-                        </g>
-                    </svg>
-                   
-                 <div class="name-text">
-
-                    <h4  style="text-align: center; padding-top: 4px;color:aqua;"><i>ANTONY KIRIINYA</i> </h4>
-                </div>
-                </div>
-                
-            </section>
-
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>ntony <span>K</span>iriinya</h1>
+          </a>
         </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!--------------About---------------------->
-    <div id="about">
-        <div id="container">
-            <div class="row">
-                <div class="about-col-1">
-                   <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                
+  </section>
+  <!-- End Header -->
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2> <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='fab fa-python skills__icon'></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__html">
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="fa-solid fa-database skills__icon"></i>
-                                <span class="skills__name">Sql</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='fas fa-file-excel skills__icon' ></i>
-                                <span class="skills__name">Excel</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='fas fa-table skills__icon'></i>
-                                <span class="skills__name">Tableau</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">
-                        About
-                    </h1>
-                    <P>
-                        Welcome to my Website  I'm Kiriinya, a dedicated data analyst and data science enthusiast
-                         skilled in Python, SQL, Excel, and Tableau.
-                         With a passion for transforming raw data into actionable insights,
-                          I specialize in delivering innovative solutions that drive business success. 
-                          Leveraging years of experience and a commitment to staying ahead of industry trends,
-                           I provide custom data analytics services tailored to unique need.  </P>
-                <div class="tab-titles">
-                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Python</span><br>Numpy,Pandas,Matplotlib & Seaborn</li>
-                        <li><span>DATABASE</span><br>MYSQL AND MONGO DB</li>
-                        <li><span>SPREADSHEETS</span><br>EXCEL AND GOOGLE SHEETS</li>
-                        <li><span>VISUALIZATION</span><br>TABLEAU</li>
-                    </ul>
-                </div> 
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>Attachment</span><br>Kionyo Tea Factory</li>
-                         <li><span>FreeLance</span><br>Data Analyst</li>
-                        <li><span>Virtual Internships</span><br>Tata Forage Data Visualization</li>
-                       
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2019-2023</span><br>Bsc. ICT JOOUST</li>
-                        <li><span>2014-2018</span><br>KCSE CERTIFICATE</li>
-                        <li><span>2005-2014</span><br>KCPE CERTIFICATE</li>
-                    </ul>
-                </div> 
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Kiriinya <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
-             
+
 
                     </div>
             </div>
         </div>
     </div>
-    <!--------------About---------------------->
 
-<!-------------services---------------------->
-<div id="services">
-    <div class="container">
-    <h1 class="sub-title">Services</h1>
-    <div class="services-list">
-        <div>
-            <i class="fas fa-book"></i>
-           
-        <h2>DATA MINING AND WEB SCRAPING</h2>
-        
-        <a href="">learn more</a>
-    </div>
-    <div>
-        <i class="fas fa-graph"></i>
-        <h2>DATA ENTRY AND CLEANING</h2>
-       
-        <a href="">learn more</a>
-    </div>
-    <div>
-        <i class="fas fa-person"></i>
-        <h2>DATA ANALYSIS,REPORTS AND CONSULATING</h2>
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
         <p></p>
-        <a href="#">learn more</a>
-    </div>
-    <div>
-        <i class="fas fa-graph"></i>
-        <h2>DATA MODELLING</h2>
-        <p></p>
-        <a href="#">learn more</a>
-    </div>
-    </div>
-</div>
-</div>
-
-<!--------------portfolio-->
-<div id="portfolio">
-    <div class="container">
-        <h2 class="sub-title">PROJECTS</h2>
-        
-        <div class="work-list">
-            <div class="work">
-                <img src="images/portpic.PNG" alt="">
-                <div class="layer">
-                    <h2>Portfolio Website</h2>
-                    <p>A portfolio website in html css and js.<br></p>
-                    <a href="https://github.com/iamparody/AntonyKiriinya.github.io"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/dynamic.jpg" alt="">
-                <div class="layer">
-                    <h2>DYNAMIC FINANCE MODEL IN EXCEL</h2>
-                    <p>A personal finance dashboard in excel.<br>Check it out</p>
-                    <a href="https://github.com/iamparody/Excel-projects"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/superstore.jpg" alt="">
-                <div class="layer">
-                    <h2>PYTHON SUPERSTORE DATA ANALYSIS</h2>
-                    <p>.<br>Check it out</p>
-                    <a href="https://github.com/iamparody/superstore-analytics"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/ecommtableau.png" alt="">
-                <div class="layer">
-                    <h2>ECOMMERCE VISUALS IN TABLEAU</h2>
-                    <p><br>Check it out</p>
-                    <a href="https://github.com/iamparody/data-analysis-PANDAS-AND-TABLEAU-"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/budgettracker.jpg" alt="">
-                <div class="layer">
-                    <h2>EXCEL BUDGET TRACKER</h2>
-                    <p>Budget Tracker<br>Check it out</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/sqlsuperstore.png" alt="">
-                <div class="layer">
-                    <h2>SQL SUPERSTORE DATA ANALYSIS</h2>
-                    <p>SQL analysis of the superstore.<br>Check it out</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/sqlfraud.png" alt="">
-                <div class="layer">
-                    <h2>FRAUD DETECTION IN SQL</h2>
-                    <p>Ana attempt to identify fraudlent activities using SQL <br>Check it out</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/superstoredash.JPg" alt="">
-                <div class="layer">
-                    <h2>SUPERSTORE DASHBOARD IN TABLEAU</h2>
-                    <p>Superstore DashBoard <br>Check it out</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                
-                </div>
-            </div>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Data Visualization</h2>
+          <p> 
+I create interactive dashboards and visual reports using tools like Tableau and Power BI, helping stakeholders understand trends and key performance indicators (KPIs).</p>
         </div>
-  
-       <a href="https://github.com/iamparody?tab=repositories" class="btn">See More</a>
-    </div>
-   
-</div>
-<!--------------contact------------------>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-<h2 class="sub-title">Contact me</h2>
-<p> <i class="fas fa-paper-plane"></i> antonykkiriinya@gmail.com</p>
-<P><i class="fas fa-phone"></i>0745859653/0705239093</P>
-<div class="social-icon">
-    <a href=""><i class="fab fa-facebook"></i></a>
-    <a href=""><i class="fab fa-twitter-square"></i></a>
-    <a href=""><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/in/antony-kiriinya-a45769211/"><i class="fab fa-linkedin"></i></a>
-</div>
-<a href="images/DATA ANALYST-1.pdf.crdownload"  download class="btn btn-warning"><i class="fa fa-download"></i>Download CV</a>
-            </div>
-            <div class="contact-right">
-              
-  <form method="post" name="submit-to-google-sheet">
-    <input type="text" name="Name" placeholder="Input your name" required>
-    <input type="email" name="Email" placeholder="input your email" required>
-    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
-    <button type="submit" class="btn btn3">Submit</button>
-  </form>
-  <span id="msg"></span>
-            </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Business Intelligence Reporting</h2>
+          <p>I analyze data to generate reports that highlight performance metrics and market trends, empowering informed decision-making.
+
+</p>
         </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Predictive Analytics</h2>
+          <p>
+I use machine learning techniques to forecast future trends based on historical data, helping anticipate customer needs and optimize operations.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Market Research Analysis</h2>
+          <p>
+Gain a competitive edge with market insights.
+I analyze market trends and customer preferences to provide actionable insights for informed marketing decisions.</p>
+        </div>
+      </div>
     </div>
-    <div class="copyright">
-        <p >copyright  &copy; 2022. Design by<a href="https://www.linkedin.com/in/antony-kiriinya-a45769211/" >  Antony Kiriinya</a></p>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Online Retail Tableau Dashboard</h1>
+            <h2>SALES AND PRODUCT ANALYSIS</h2>
+            <p>Explore!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/superstoredash.jpg" alt="img">
+          </div>
+        </div>
+                <div class="project-item">
+          <div class="project-info">
+            <h1>Finance Tracker</h1>
+            <h2>Dynamic Finance Model in Excel</h2>
+            <p>Explore</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/dynamic.jpg" alt="img">
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/profile.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>DATA ANALYST</h2>
+        <p>Welcome to my Website I'm Kiriinya, a dedicated data analyst and data science enthusiast skilled in Python, SQL, Excel, and Tableau. With a passion for transforming raw data into actionable insights, I specialize in delivering innovative solutions that drive business success. Leveraging years of experience and a commitment to staying ahead of industry trends, I provide custom data analytics services tailored to unique need.</p>
+      <a href="img/Antony Kiriinya.pdf" download class="cta">
+    <i class="fa fa-download"></i> Download CV
+</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+254745859653</h2>
+            <h2>+254705239093</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>antonykkiriinya@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Box 60600 Nairobi</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>A</span>ntony <span>K</span>iriinya</h1>
+      </div>
+      <h2>Reach Me</h2>
+      <div class="social-icon">
+  <div class="social-item">
+    <a href="https://linktr.ee/antony_kiriinya"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" alt="Twitter" /></a>
+  </div>
+  <div class="social-item">
+    <a href="https://github.com/iamparody"><img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="GitHub" /></a>
+  </div>
+  <div class="social-item">
+    <a href="https://www.linkedin.com/in/antony-kiriinya-a45769211"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="LinkedIn" /></a>
+  </div>
+  <div class="social-item">
+    <a href="https://iamparody.github.io/AntonyKiriinya"><img src="https://img.icons8.com/bubbles/100/000000/dribbble.png" alt="Dribbble" /></a>
+  </div>
 </div>
+<p>Copyright © 2025. All rights reserved</p>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 
-
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-    <script>
-        var sidemeu =document.getElementById("sidemenu");
-        function openmenu(){
-            sidemeu.style.right="0";
-        }
-        function closemenu(){
-sidemeu.style.right="-200px";
-}
-    </script>
-    <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycby53cFarednkNLtLBXpzp8vEP28B6OgYkwvs8S8dbdiVDD6gFRs4Z0XALbqDG61JanTlA/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg=document.getElementById("msg")
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-          msg.innerHTML ="Message Sent Successfully"
-          setTimeout(function(){
-              msg.innerHTML =" "
-              
-          },2000)
-          form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
 </body>
+
 </html>
